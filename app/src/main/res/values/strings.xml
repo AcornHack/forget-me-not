@@ -4,4 +4,5 @@
     <string name="memo_button">Enter Memo</string>
     <string name="title">Forgetmenot</string>
     <string name="title_activity_memo">MemoActivity</string>
+    <string name="title_activity_memo_view">MemoViewActivity</string>
 </resources>
