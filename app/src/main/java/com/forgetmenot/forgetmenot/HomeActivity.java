@@ -19,6 +19,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         final Button button = (Button) findViewById(R.id.memoButton);
+
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 goToMemoActivity(v);

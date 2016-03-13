@@ -2,7 +2,8 @@
     <string name="app_name">ForgetMeNot</string>
     <string name="action_settings">Settings</string>
     <string name="memo_button">Enter Memo</string>
-    <string name="title">Forgetmenot</string>
+    <string name="memo_activity_title">What would you like to remember?</string>
+    <string name="memo_read_out">Have you remembered?</string>
     <string name="title_activity_memo">MemoActivity</string>
     <string name="title_activity_memo_view">MemoViewActivity</string>
 </resources>

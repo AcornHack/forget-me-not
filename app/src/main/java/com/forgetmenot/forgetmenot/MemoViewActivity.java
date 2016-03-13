@@ -27,4 +27,12 @@ public class MemoViewActivity extends AppCompatActivity {
     });
     }
 
+    public void onPause(){
+        if(textToSpeech != null){
+            textToSpeech.stop();
+            textToSpeech.shutdown();
+        }
+        super.onPause();
+    }
+
 }
