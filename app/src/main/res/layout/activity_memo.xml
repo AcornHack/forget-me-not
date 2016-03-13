@@ -18,19 +18,27 @@
         android:gravity="center"
         android:textSize="35sp" />
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_marginTop="46dp"
+        android:hint="Enter Text"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/memo_button"
-        android:id="@+id/memoButton"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
+        android:text="New Button"
+        android:id="@+id/enterMemoButton"
         android:layout_marginTop="53dp"
-        android:layout_alignParentRight="true"
-        android:gravity="start"
-        android:onClick="goToMemoActivity"
-        android:layout_alignParentEnd="true" />
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true" />
 
 
 </RelativeLayout>

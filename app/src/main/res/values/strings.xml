@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">ForgetMeNot</string>
     <string name="action_settings">Settings</string>
+    <string name="memo_button">Enter Memo</string>
     <string name="title">Forgetmenot</string>
+    <string name="title_activity_memo">MemoActivity</string>
 </resources>
